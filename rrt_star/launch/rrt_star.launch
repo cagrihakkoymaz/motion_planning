@@ -1,0 +1,6 @@
+<launch>
+    <rosparam file="$(find rrt_star)/cfg/params.yaml" command="load" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rrt_star)/rviz/rrt_star.rviz" />
+    <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" />
+    <node pkg="rrt_star" type="rrt_star" name="rrt_star" output="screen" />
+</launch>

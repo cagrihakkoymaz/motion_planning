@@ -1,0 +1,6 @@
+geometry_msgs/PoseStamped startPoint
+geometry_msgs/PoseStamped goalPoint
+---
+bool success
+float64 serviceTime
+nav_msgs/Path path

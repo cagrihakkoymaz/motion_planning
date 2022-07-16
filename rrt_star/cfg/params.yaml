@@ -1,0 +1,9 @@
+rrt_star:
+  obstacleNumber: 10    # Number of obstacles in the map
+  obstacleSize: 6.0     # Obstacle radius /meters
+  safetyMargin: 1.8     # Safety margin for path planning /meters
+  solutionTime: 0.1     # Maximum solution time
+  stepSize: 5.0         # Step length /meters
+  goalBias: 0.05        # Probability (default 0.05)
+  goalThreshold: 1      # Goal threshold /meters
+  

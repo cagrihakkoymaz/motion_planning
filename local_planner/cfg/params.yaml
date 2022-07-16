@@ -1,0 +1,14 @@
+local_planner:
+  map_frame: "map"
+  l: 3.6          # Longitudinal distance /meters
+  d: 2.5          # Lateral distance /meters
+  threshold: 3.0  # Threshold /meters
+  yaw: 0.0        # Starting yaw angle /degree
+  start_x: 0      # Starting x /meters
+  start_y: 0      # Starting y /meters
+  Kp: 2.0         # Linear velocity gain P
+  Ki: 0.5         # Linear velocity gain I
+  Kd: 0.25        # Linear velocity gain D
+  Kpa: 5.0        # Angular velocity gain P
+  Kia: 0.25       # Angular velocity gain I
+  Kda: 0.5        # Angular velocity gain D
